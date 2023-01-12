@@ -53,10 +53,6 @@ function Home(props) {
       }
     ]
 
-    
-    // const mudarTelaCarrinho = () => {
-    //     props.setTelaCarrinho(true);
-    //   };
 
       const onChangeItem = (event) => {
         setCarrinho(event.target.value);
